@@ -1,0 +1,480 @@
+/*Base*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
+/*Navbar*/
+header {
+    background-image: url(images/pic_1.jpg);
+    height: auto;
+    background-position: center;
+    background-size:cover;
+}
+
+.smile {
+    width: 30px;
+    height: 30;
+}
+
+.logo-img {
+    width: 112px;
+    height: auto;
+}
+
+ul li a {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    background-color: #FFFFFF;
+    height: 3px;
+    width:0;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width:100%;
+}
+
+.nav-link:hover {
+    color: #C271FF;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+ul {
+    margin-left: auto;
+    
+}
+
+.navbar button {
+    color: #FFFFFF;
+}
+
+/*showcase section*/
+
+.showcase h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 151px;
+    text-align: center;
+    padding-top: 165px;
+}
+
+.showcase h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.showcase button {
+    background-color: #C271FF;
+    margin-top: 40px;
+    height: 44px;
+    color: #FFFFFF;
+}
+
+.showcase h3 .colored {
+    color: #C271FF;
+}
+
+.showcase h3 .fin {
+    opacity: 0.6;
+    font-weight: 200;
+}
+
+.showcase h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    height: 150px;
+    padding-top: 168px;
+}
+
+.showcase img {
+    width: 150px;
+    height: 150px;
+}
+
+.showcase .row {
+    margin-inline: auto;
+    margin-top: 87px;
+    padding-bottom: 80px;
+}
+
+.showcase .col h2,
+.showcase .col blockquote {
+    width: 150px;
+    margin-inline: auto;
+}
+
+.showcase .col h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.showcase .col blockquote {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navbar-toggler-icon {
+    width: 1.3rem;
+    height: .2rem;
+    background-color: #FFFFFF;
+    position: relative;
+    display: block;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '';
+    width: 150%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.navbar-toggler-icon::before {
+    position: absolute;
+    top: 0.7rem;
+}
+
+.navbar-toggler-icon::after {
+    position: absolute;
+    top: -0.7rem;
+}
+
+.navbar button:active {
+    text-decoration: none;
+}
+
+/*Carousel of quotes*/
+
+.carousell {
+    background-color: #C271FF;
+    height: auto;
+}
+
+.carousell img {
+    width: 160px;
+    height: 160px;
+    margin-right: 53px;
+}
+
+.carousell .container {
+    margin: 5% ;
+    margin-inline: auto;
+}
+
+/*most popular*/
+
+.popular .popular-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #071629;
+    margin: 50px 0;
+}
+
+.popular .popular-title .strong-word {
+    color: #C271FF;
+    font-weight: 800;
+}
+
+.card-body h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #071629;
+}
+
+.card-body p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.cardname {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #C271FF;
+    margin-left: 5px;
+}
+
+.col-8 img {
+    width: 15px;
+    height: 15px;
+}
+
+.team_word {
+    color: #C271FF;
+}
+
+.play-img {
+    position: absolute;
+    top: 10%;
+    left: 35%
+
+}
+
+/*free membership*/
+
+.free-membership {
+    background: #071629;
+    height: auto;
+}
+
+.free-membership h1 .free {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.free-membership h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.free-membership .dot p {
+    width: 200px;
+    margin-inline: auto;
+}
+
+.free-membership .dot {
+    text-align: center;
+    width: 200px;
+    padding: 40px;
+}
+
+.free-membership .dot img {
+    margin-bottom: 25px;
+}
+
+.free-membership .dot h4 {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.free-membership button {
+    background-color: #C271FF;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    background-color:#071629;
+}
+
+footer i {
+    width: 30px;
+    height: 30px;
+}
+
+footer .copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
+
+
+@media screen and (max-width:576px) {
+    .showcase h1 {
+        font-size: 61px;
+    }
+    .navbar-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar button {
+        margin-left: -90%;
+        margin-top: 10px;
+    }
+    .fcont {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fcont .icons {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .showcase h1 {
+        font-size: 80px;
+    }
+}
+
+/***************/
+
+/***** pricing ******/
+
+/*header*/
+
+.pricing-header {
+    background-image: url(./images/pic_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pricing-header h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.pricing-header h1 .smile {
+   
+    margin-top: -5px;
+}
+
+.pricing-header .pro {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    margin: 3rem 0;
+    padding-bottom: 1em;
+}
+
+/*grid prices*/
+
+.grid-prices button {
+    background-color: #C271FF;
+    color: #FFFFFF;
+    width: 160px;
+    margin: 1.5rem 0;
+}
+
+.pricing-header .grid-prices .grid-price {
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grid-month {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 2rem;
+}
+
+/*F.A.Q.*/
+
+.faq-grid h1{
+    color: #071629;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.faq-grid h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #071629;
+}
+
+.faq-grid p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.faq-grid .faq-text {
+    padding: 3.5rem;
+}
+
+/********courses********/
+
+/*courses header*/
+
+.courses-header {
+    background-image: url(./images/pic_3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.courses-title {
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 0;
+}
+
+
+/*search filter*/
+
+.search-filter {
+    background-color: #C271FF;
+}
+
+@media screen and (max-width:576px) {
+    .courses-title {
+        display: none;
+    }
+}
