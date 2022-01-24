@@ -1,6 +1,6 @@
 # holberton-smiling-school
 
-In this project we will implement 3 webpages with Bootstrap, I will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that I learned previously. the objective is simple: Have fully functional web pages that look the same as the designer file.
+In this project we will implement 3 webpages with Bootstrap, I will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that I learned previously. the objective is simple: Have fully functional web pages that look the same as the designer file.\
 Here the final result: ![the final result](./images/final.jpg "final result").
 
 ## Requirements
